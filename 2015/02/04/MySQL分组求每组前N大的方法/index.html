@@ -3,17 +3,29 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Graceland</title>
+  <title>MySQL分组求每组前N大的方法 | Graceland</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Graceland">
-<meta property="og:url" content="http://alexsunyx.github.io/">
+  <meta name="description" content="导读
+    这篇博客是在很久之前写的,当时还不知道MySQL里的变量该怎么用。如果这个需求用变量做的话会简单很多。下面给大家呈现一种比较复杂的'初等'方法解。
+上一周在优化代码的时候自己脑补了一个新需求,即从一个Mysql表中按某字段分组中取每组前N大的项。仔细想想觉得很简单,但是……真的废了我好久的时间。下面是我总结出来的经验。
+
+由于项目关系,所以改用world database(http:">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL分组求每组前N大的方法">
+<meta property="og:url" content="http://alexsunyx.github.io/2015/02/04/MySQL分组求每组前N大的方法/">
 <meta property="og:site_name" content="Graceland">
-<meta property="og:description">
+<meta property="og:description" content="导读
+    这篇博客是在很久之前写的,当时还不知道MySQL里的变量该怎么用。如果这个需求用变量做的话会简单很多。下面给大家呈现一种比较复杂的'初等'方法解。
+上一周在优化代码的时候自己脑补了一个新需求,即从一个Mysql表中按某字段分组中取每组前N大的项。仔细想想觉得很简单,但是……真的废了我好久的时间。下面是我总结出来的经验。
+
+由于项目关系,所以改用world database(http:">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Graceland">
-<meta name="twitter:description">
+<meta name="twitter:title" content="MySQL分组求每组前N大的方法">
+<meta name="twitter:description" content="导读
+    这篇博客是在很久之前写的,当时还不知道MySQL里的变量该怎么用。如果这个需求用变量做的话会简单很多。下面给大家呈现一种比较复杂的'初等'方法解。
+上一周在优化代码的时候自己脑补了一个新需求,即从一个Mysql表中按某字段分组中取每组前N大的项。仔细想想觉得很简单,但是……真的废了我好久的时间。下面是我总结出来的经验。
+
+由于项目关系,所以改用world database(http:">
 
   
     <link rel="alternative" href="/atom.xml" title="Graceland" type="application/atom+xml">
@@ -65,9 +77,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-MySQL分组求每组前N大的方法" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-MySQL分组求每组前N大的方法" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/02/04/MySQL分组求每组前N大的方法/" class="article-date">
   <time datetime="2015-02-04T07:45:59.000Z" itemprop="datePublished">2月 4 2015</time>
@@ -80,8 +90,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/02/04/MySQL分组求每组前N大的方法/">MySQL分组求每组前N大的方法</a>
+    <h1 class="article-title" itemprop="name">
+      MySQL分组求每组前N大的方法
     </h1>
   
 
@@ -297,11 +307,10 @@
     </footer>
   </div>
   
+    
+  
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">
